@@ -1,0 +1,494 @@
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    height: 100%;
+}
+
+.heroSection .hero-text {
+    margin-left: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.heroSection .hero-text .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 37rem;
+}
+
+.heroSection .hero-text .heading .Heading1_Hero {
+    font-size: 58px;
+    color: #5C27C0;
+    font-weight: bold;
+}
+
+.heroSection .hero-text .heading .Heading2_Hero {
+    font-size: 45px;
+    font-weight: 200;
+    color: #5C27C0;
+}
+
+.heroSection .hero-text .heading .mainPara {
+    font-family: Poppins;
+    width: 37rem;
+}
+
+.heroSection .hero-text .BookDemo {
+    width: 271px;
+    height: 70px;
+    top: 413px;
+    left: 120px;
+    padding: 21px 56px 21px 56px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #5C27C0;
+    opacity: 0px;
+    background-color: #5C27C0;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.heroSection .hero-text .BookDemo:hover {
+    border: 2px solid #5C27C0;
+    opacity: 0px;
+    background-color: transparent;
+    color: #5C27C0;
+}
+
+.heroSection .hero-text .text .subtext {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #5C27C0;
+}
+
+.heroSection .hero-img {
+    position: relative;
+    margin: 98px 0;
+
+}
+
+.heroSection .hero-img .heroimg-para {
+    width: auto;
+    height: 56vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.heroSection .hero-img .CandidatesCss {
+    display: inline-flex;
+    align-items: center;
+    gap: 23px;
+    background-color: #5C27C0;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.heroSection .hero-img .CandidatesCss img {
+    background-color: #F6F6F6;
+    padding: 19px;
+    border-radius: 10px;
+}
+
+.heroSection .hero-img .CandidatesCss>div {
+    color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.heroSection .hero-img .CandidatesCss>div h4 {
+    font-size: 24px;
+
+}
+
+.heroSection .hero-img .CandidatesCss>div p {
+    font-size: 18px;
+
+}
+
+/* .heroSection .hero-img .position {
+    position: absolute;
+    top: 194px;
+    right: 568px;
+    width: 17rem;
+    z-index: -1;
+
+} */
+
+/* .heroSection .hero-img .position-2 {
+    position: absolute;
+    top: 365px;
+    right: 365px;
+    width: 17rem;
+} */
+
+.heroSection .hero-img .position {
+    position: absolute;
+    top: 218px;
+    right: 507px;
+    width: 17rem;
+    z-index: -1;
+}
+
+.heroSection .hero-img .position-2 {
+    position: absolute;
+    top: 351px;
+    right: 347px;
+    width: 17rem;
+}
+
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .heroSection {
+        display: flex;
+        justify-content: space-between;
+        gap: 0rem;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .heroSection .hero-text {
+        margin-left: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .heroSection .hero-text .heading .Heading2_Hero {
+        font-size: 35px;
+        font-weight: 200;
+        color: #5C27C0;
+    }
+
+    .heroSection .hero-text .heading .Heading1_Hero {
+        font-size: 29px;
+        color: #5C27C0;
+        font-weight: bold;
+    }
+
+    .heroSection .hero-text .heading .mainPara {
+        font-family: Poppins;
+        width: 18rem;
+        font-size: 14px;
+    }
+
+    .heroSection .hero-text .BookDemo {
+        width: 207px;
+        height: 52px;
+        top: 413px;
+        left: 120px;
+        padding: 0 25px;
+        gap: 10px;
+        border-radius: 10px;
+        border: 2px solid #5C27C0;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .heroSection .hero-text .text .subtext {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #5C27C0;
+        font-size: 19px;
+    }
+
+    .heroSection .hero-text .text {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -69px;
+        right: 490px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 191px;
+        right: 371px;
+        width: 11rem;
+        height: 5rem;
+    }
+
+    .heroSection .hero-img .heroimg-para {
+        width: auto;
+        height: 32vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+
+    .heroSection .hero-img .CandidatesCss img {
+        background-color: #F6F6F6;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    .heroSection .hero-img .CandidatesCss>div p {
+        font-size: 13px;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -69px;
+        right: 490px;
+        width: 11rem;
+        height: 5rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -69px;
+        right: 428px;
+        width: 11rem;
+        height: 5rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-text .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        width: 18rem !important;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: space-between;
+        gap: 0rem;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -69px;
+        right: 158px;
+        width: 11rem;
+        height: 5rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 191px;
+        right: 149px;
+        width: 11rem;
+        height: 5rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: space-between;
+        gap: 0rem;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .heroSection .hero-text .heading .Heading1_Hero {
+        font-size: 49px;
+        color: #5C27C0;
+        font-weight: bold;
+    }
+
+    .heroSection .hero-text .heading .mainPara {
+        font-family: Poppins;
+        width: 34rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .heroSection .hero-img .heroimg-para {
+        width: auto;
+        height: 45vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -76px;
+        right: 278px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 257px;
+        right: 0px;
+        width: 17rem;
+    }
+
+    .heroSection .hero-img .CandidatesCss>div p {
+        font-size: 13px;
+    }
+
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    .heroSection .hero-text .heading .Heading1_Hero {
+        font-size: 49px;
+        color: #5C27C0;
+        font-weight: bold;
+    }
+
+    .heroSection .hero-text .heading .mainPara {
+        font-family: Poppins;
+        width: 34rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .heroSection .hero-img .heroimg-para {
+        width: auto;
+        height: 45vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -76px;
+        right: 278px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 257px;
+        right: 0px;
+        width: 17rem;
+    }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+    .heroSection .hero-text .heading .Heading1_Hero {
+        font-size: 49px;
+        color: #5C27C0;
+        font-weight: bold;
+    }
+
+    .heroSection .hero-text .heading .mainPara {
+        font-family: Poppins;
+        width: 34rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+        height: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .heroSection .hero-img .heroimg-para {
+        width: auto;
+        height: 45vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: -60px;
+        right: 208px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 284px;
+        right: 186px;
+        width: 17rem;
+    }
+
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+    .heroSection .hero-img .heroimg-para {
+        width: auto;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: space-between;
+        gap: 0rem;
+        height: 100%;
+    }
+
+    .heroSection .hero-img .position {
+        position: absolute;
+        top: 218px;
+        right: 507px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .heroSection .hero-img .position-2 {
+        position: absolute;
+        top: 351px;
+        right: 347px;
+        width: 17rem;
+    }
+}
+
+/* ! XX-Large devices (larger desktops) */

@@ -1,0 +1,604 @@
+.Pricing {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin-top: 4rem;
+}
+
+.Pricing .Pricing-paras {
+    margin: 2rem 0;
+    font-weight: 100;
+    color: #5C27C0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Pricing .pricing-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.Pricing .span {
+    margin: 5rem 0;
+    font-weight: bold;
+    color: #5C27C0;
+}
+
+.Pricing .Pricing_css {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+    width: 366px;
+    height: 591px;
+    gap: 51px;
+    border-radius: 10px;
+    opacity: 0px;
+    color: black;
+    margin: 3rem 0;
+    box-shadow: 0px 1px 18px #5C27C0;
+    position: relative;
+
+}
+
+.Pricing .Pricing_css:hover {
+    background-color: #5C27C0;
+    color: #fff;
+}
+
+.Pricing .Pricing_css .month_css {
+    color: #5C27C0;
+}
+
+.Pricing .Pricing_css .monthCss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Pricing .Pricing_css .monthCss h2 {
+    font-size: 12px;
+}
+
+.Pricing .Pricing_css .monthCss h1 {
+    font-size: 27px;
+}
+
+.Pricing .Pricing_css .monthCss h1 {
+    font-size: 27px;
+}
+
+.Pricing .Pricing_css .Title_css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 295px;
+    height: 318px;
+    top: 184px;
+    left: 35px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+
+.Pricing .Pricing_css .Title_css p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Pricing .Pricing_css .Title_cssh3 {
+    color: #5C27C0;
+}
+
+.Pricing .Pricing_css .Title_css .subtext_css {
+    font-size: 21px;
+    text-align: justify;
+}
+
+.Pricing .Pricing_css .Title_css>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Pricing .Pricing_css .Title_css>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Pricing .Pricing_css a {
+    text-decoration: none;
+}
+
+.Pricing .Pricing_css .mostpopular {
+    background-color: #FFB649;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 13px;
+    padding: 6px;
+    /* border-radius: 8px; */
+    color: #fff;
+    width: 131px;
+    height: 36px;
+    left: 234.5px;
+    gap: 10px;
+    border-radius: 0px 10px 0px 5px;
+    opacity: 0px;
+}
+
+.Pricing .Pricing_btn {
+    width: 295px;
+    height: 59px;
+    top: 567px;
+    left: 36px;
+    padding: 16px 30px 16px 30px;
+    gap: 16px;
+    border-radius: 10px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background-color: #5C27C0;
+    border: 2px solid #5C27C0;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+
+.Pricing .BookDeom {
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #5C27C0;
+    box-sizing: 10px 10px 10px 10px #5C27C0;
+    box-shadow: 0px 1px 18px #5C27C0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+.Pricing .BookDeom:hover {
+    background-color: #5C27C0;
+    color: #fff;
+}
+
+
+
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+    .Pricing .pricing-card {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 591px;
+        gap: 51px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 472px;
+        gap: 25px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .mostpopular {
+        background-color: #FFB649;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-size: 13px;
+        padding: 6px;
+        /* border-radius: 8px; */
+        color: #fff;
+        width: 131px;
+        height: 26px;
+        left: 154.5px;
+        gap: 10px;
+        border-radius: 0px 10px 0px 5px;
+        opacity: 0px;
+    }
+
+    .Pricing .Pricing_css .Title_css>div .subtext_css {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .Pricing .Pricing_btn {
+        width: 241px;
+        height: 59px;
+        top: 567px;
+        left: 36px;
+        padding: 16px 30px 16px 30px;
+        gap: 16px;
+        border-radius: 10px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        background-color: #5C27C0;
+        border: 2px solid #5C27C0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+    .Helping .card-Helping .cards-Helping>div>h4,
+    p {
+        font-size: 25px;
+    }
+
+    .Pricing .Pricing-paras {
+        margin: 2rem 0;
+        font-weight: 100;
+        color: #5C27C0;
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+    .Pricing .Pricing_css .Title_css>div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 76%;
+    }
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+    .Pricing .pricing-card {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 591px;
+        gap: 51px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 472px;
+        gap: 25px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .mostpopular {
+        background-color: #FFB649;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-size: 13px;
+        padding: 6px;
+        /* border-radius: 8px; */
+        color: #fff;
+        width: 131px;
+        height: 26px;
+        left: 154.5px;
+        gap: 10px;
+        border-radius: 0px 10px 0px 5px;
+        opacity: 0px;
+    }
+
+    .Pricing .Pricing_css .Title_css>div .subtext_css {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .Pricing .Pricing_btn {
+        width: 241px;
+        height: 59px;
+        top: 567px;
+        left: 36px;
+        padding: 16px 30px 16px 30px;
+        gap: 16px;
+        border-radius: 10px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        background-color: #5C27C0;
+        border: 2px solid #5C27C0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+    }
+
+
+    .Pricing .pricing-card {
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    \  .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+    .Pricing .pricing-card {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 591px;
+        gap: 51px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css .Title_css p {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .Pricing .Pricing_css {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        width: 285px;
+        height: 472px;
+        gap: 25px;
+        border-radius: 10px;
+        opacity: 0px;
+        color: black;
+        margin: 3rem 0;
+        box-shadow: 0px 1px 18px #5C27C0;
+        position: relative;
+    }
+
+    .Pricing .Pricing_css .mostpopular {
+        background-color: #FFB649;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-size: 13px;
+        padding: 6px;
+        /* border-radius: 8px; */
+        color: #fff;
+        width: 131px;
+        height: 26px;
+        left: 154.5px;
+        gap: 10px;
+        border-radius: 0px 10px 0px 5px;
+        opacity: 0px;
+    }
+
+    .Pricing .Pricing_css .Title_css>div .subtext_css {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .Pricing .Pricing_btn {
+        width: 241px;
+        height: 59px;
+        top: 567px;
+        left: 36px;
+        padding: 16px 30px 16px 30px;
+        gap: 16px;
+        border-radius: 10px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        background-color: #5C27C0;
+        border: 2px solid #5C27C0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+    }
+
+
+    .Pricing .pricing-card {
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+    .Pricing {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 4rem;
+    }
+
+
+    .Pricing .Pricing_css .Title_css>div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 97%;
+    }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+    .Pricing .Pricing_css .Title_css>div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 97%;
+    }
+}
+
+/* ! XX-Large devices (larger desktops) */

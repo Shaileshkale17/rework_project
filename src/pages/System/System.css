@@ -1,0 +1,432 @@
+.System {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.System .System-paras {
+    margin: 2rem 0;
+    font-weight: 100;
+    color: #5C27C0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.System span {
+    margin: 5rem 0;
+    font-weight: bold;
+    color: #5C27C0;
+}
+
+.System .System-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 11rem;
+}
+
+.System .System-card .System-card-main {
+    position: relative;
+}
+
+.System .System-card .System-card-main .imgstyle1 {
+    position: absolute;
+    left: 346px;
+
+}
+
+.System .System-card .System-card-main .imgstyle2 {
+    position: absolute;
+    top: 180px;
+    left: 296px;
+
+}
+
+.System .System-card .System-card-main .imgstyle3 {
+    position: absolute;
+    left: 228px;
+
+}
+
+.System .System-card .color-bg {
+    background-color: #ffff;
+
+}
+
+.System .System-card .System-card-main>div {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    padding: 1rem 0px;
+}
+
+.System .System-card .System-card-main>div p {
+    font-size: 19px;
+    padding: 0 2rem;
+}
+
+.System .System-card .System-card-main>div h4 {
+    padding: 25px 8px 0px 33px;
+    font-size: 20px;
+}
+
+.System .GetButton {
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #5C27C0;
+    box-sizing: 10px 10px 10px 10px #5C27C0;
+    box-shadow: 0px 1px 18px #5C27C0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+
+
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .System {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0px 12px 0 0;
+    }
+
+    .System .System-card {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0 11rem;
+    }
+
+    .System .System-card .System-card-main .imgstyle1 {
+        position: absolute;
+        left: 164px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 248px;
+        left: 171px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main .imgstyle3 {
+        position: absolute;
+        left: 169px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main>div {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 4rem 0px;
+    }
+
+    .System .System-paras {
+        margin: 2rem 0;
+        font-weight: 100;
+        color: #5C27C0;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .System .GetButton {
+        padding: .8rem;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 2px solid #5C27C0;
+        box-sizing: 10px 10px 10px 10px #5C27C0;
+        box-shadow: 0 1px 18px #5c27c0;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .System {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0px 12px 0 0;
+    }
+
+    .System .System-card {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0 11rem;
+    }
+
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 174px;
+        left: 343px;
+        width: 51px;
+    }
+
+
+
+    .System .System-card .System-card-main>div {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 4rem 0px;
+    }
+
+    .System .System-card .System-card-main .imgstyle1 {
+        position: absolute;
+        left: 341px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main .imgstyle3 {
+        position: absolute;
+        left: 345px;
+        width: 51px;
+    }
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    .System {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0px 12px 0 0;
+    }
+
+    .System .System-card {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0 11rem;
+    }
+
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 174px;
+        left: 343px;
+        width: 51px;
+    }
+
+
+
+    .System .System-card .System-card-main>div {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 4rem 0px;
+    }
+
+    .System .System-card .System-card-main .imgstyle1 {
+        position: absolute;
+        left: 575px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 174px;
+        left: 528px;
+        width: 51px;
+    }
+
+    .System .System-card .System-card-main .imgstyle3 {
+        position: absolute;
+        left: 473px;
+        width: 51px;
+    }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+
+    .System {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0px 12px 0 0;
+    }
+
+    .System .System-card {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 0 1rem;
+    }
+
+    .System .System-card .System-card-main .imgstyle1 {
+        position: absolute;
+        left: 223px;
+    }
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 178px;
+        left: 286px;
+    }
+
+    .System .System-card .System-card-main .imgstyle3 {
+        position: absolute;
+        left: 228px;
+    }
+
+    .Success_Stories .card_main {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+
+    .main_card_Success {
+        width: 390px;
+        height: 469px;
+        width: 104%;
+        border-radius: 16px;
+        margin: 1rem;
+        opacity: 0px;
+        /* background: #312d2d; */
+        background: #FAFAFA;
+        margin-top: 2rem 0;
+        box-shadow: -1px 1px 18px rgba(141, 135, 135, 0.758);
+    }
+
+    .main_card_Success .main_card_Success_img img {
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+
+    .Success_Stories .card_main {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 2rem;
+        width: 96%;
+    }
+
+    .main_card_Success {
+        width: 100%;
+        height: 469px;
+        border-radius: 16px;
+        margin: 1rem;
+        opacity: 0px;
+        /* background: #312d2d; */
+        background: #FAFAFA;
+        margin-top: 2rem 0;
+        box-shadow: -1px 1px 18px rgba(141, 135, 135, 0.758);
+    }
+
+    .main_card_Success {
+        width: 100% !important;
+        height: 469px;
+        border-radius: 16px;
+        margin: 1rem;
+        opacity: 0px;
+        /* background: #312d2d; */
+        background: #FAFAFA;
+        margin-top: 2rem 0;
+        box-shadow: -1px 1px 18px rgba(141, 135, 135, 0.758);
+    }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+    .System {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0px 12px 49px 0px;
+    }
+
+
+
+
+    .System .System-card {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 0 1rem;
+    }
+
+    .System .System-card .System-card-main .imgstyle1 {
+        position: absolute;
+        left: 316px;
+    }
+
+    .System .System-card .System-card-main .imgstyle2 {
+        position: absolute;
+        top: 178px;
+        left: 315px;
+    }
+
+    .System .System-card .System-card-main .imgstyle3 {
+        position: absolute;
+        left: 316px;
+    }
+
+    .System .System-card .System-card-main {
+        position: relative;
+        width: 100%;
+    }
+
+    .System .System-card .color-bg {
+
+        width: 100%;
+    }
+
+}
+
+/* ! XX-Large devices (larger desktops) */

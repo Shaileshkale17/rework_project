@@ -1,0 +1,43 @@
+.Customer_card_css {
+    width: 381.33px;
+    height: 309px;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 16px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #EFE5FF;
+
+}
+
+.Customer_card_css p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.Customer_card_css .user_style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+}
+
+.Customer_card_css .user_style .text_user p:first-child {
+    color: #5C27C0;
+
+    font-family: Garnett Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.Customer_card_css .user_style .text_user p:last-child {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}

@@ -1,0 +1,499 @@
+.RequestPage {
+    width: 100%;
+    height: 20rem;
+
+}
+
+.RequestPage .RequestPageText {
+    width: 1175px;
+    display: flex;
+    height: 219px;
+    margin: 113px 125px;
+    gap: 20px;
+    opacity: 0px;
+    flex-direction: column;
+}
+
+.RequestPage .RequestPageText .request_css_h1 {
+    font-family: Garnett Semibold;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 58.51px;
+    text-align: left;
+    color: #5C27C0;
+}
+
+.RequestPage .RequestPageText p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.RequestPage .RequestPageText .Request_css_Button {
+    width: 476px;
+    height: 70px;
+    top: 392px;
+    left: 125px;
+    padding: 21px 56px 21px 56px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #5C27C0;
+    color: #FFFBFB;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+
+
+
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .RequestPage {
+        width: 100%;
+        height: 100%;
+        /* height: 20rem; */
+    }
+
+    .RequestPage .RequestPageText {
+        width: 100%;
+        display: flex;
+        height: 219px;
+        margin: 95px 63px;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    /* .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 476px;
+    } */
+
+    .RequestPage .RequestPageText {
+        width: 1174px;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 504px;
+    }
+
+    /* .RequestPage .RequestPageText .Request_css_Button {
+        width: 422px;
+        height: 70px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    /* } */
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 361px;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 291px;
+    }
+
+    .RequestPage .RequestPageText .Request_css_Button {
+        width: 291px;
+        height: 58px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    }
+
+
+    .RequestPage .RequestPageText {
+        width: 100% !important;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 313px;
+    }
+
+    .RequestPage .RequestPageText {
+        width: 100% !important;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+    }
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .RequestPage {
+        width: 100%;
+        height: 100%;
+        /* height: 20rem; */
+    }
+
+    .RequestPage .RequestPageText {
+        width: 100%;
+        display: flex;
+        height: 219px;
+        margin: 95px 63px;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    /* .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 476px;
+    } */
+
+    .RequestPage .RequestPageText {
+        width: 1174px;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 504px;
+    }
+
+    /* .RequestPage .RequestPageText .Request_css_Button {
+        width: 422px;
+        height: 70px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    /* } */
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 361px;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 291px;
+    }
+
+    .RequestPage .RequestPageText .Request_css_Button {
+        width: 291px;
+        height: 58px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    }
+
+
+    .RequestPage .RequestPageText {
+        width: 100% !important;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 90%;
+        margin: 0 18px;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        /* text-align: left; */
+        width: 90%;
+        margin: 0 18px;
+    }
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    .RequestPage {
+        width: 100%;
+        height: 100%;
+        /* height: 20rem; */
+    }
+
+    .RequestPage .RequestPageText {
+        width: 100%;
+        display: flex;
+        height: 219px;
+        margin: 95px 63px;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    /* .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 476px;
+    } */
+
+    .RequestPage .RequestPageText {
+        width: 1174px;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 504px;
+    }
+
+    /* .RequestPage .RequestPageText .Request_css_Button {
+        width: 422px;
+        height: 70px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    /* } */
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 361px;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        width: 291px;
+    }
+
+    .RequestPage .RequestPageText .Request_css_Button {
+        width: 291px;
+        height: 58px;
+        top: 392px;
+        left: 125px;
+        padding: 21px 56px 21px 56px;
+        gap: 10px;
+        border-radius: 20px;
+        opacity: 0px;
+        background-color: #5C27C0;
+        color: #FFFBFB;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        /* padding: 0 36px 30px 0; */
+    }
+
+
+    .RequestPage .RequestPageText {
+        width: 100% !important;
+        display: flex;
+        height: 219px;
+        margin: 95px 0;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+
+
+    .RequestPage .RequestPageText .request_css_h1 {
+        font-family: Garnett Semibold;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: left;
+        color: #5C27C0;
+        width: 90%;
+        margin: 0 18px;
+    }
+
+    .RequestPage .RequestPageText p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        /* text-align: left; */
+        width: 90%;
+        margin: 0 18px;
+    }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+    .RequestPage .RequestPageText {
+        width: 78%;
+        display: flex;
+        height: 219px;
+        margin: 113px 125px;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+    .RequestPage .RequestPageText {
+        width: 89%;
+        display: flex;
+        height: 219px;
+        margin: 113px 125px;
+        gap: 20px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+}
+
+/* ! XX-Large devices (larger desktops) */

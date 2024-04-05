@@ -1,0 +1,98 @@
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: #EFE5FF;
+    padding: 30px 0;
+    margin: 10px 0;
+}
+
+.brand .brand-text {
+    color: #AD93DF;
+}
+
+
+
+.brand .bardstyle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .brand .brand-text {
+        color: #AD93DF;
+        font-size: 19px;
+    }
+
+    .brand .bardstyle {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+
+    .brand .bardstyle img {
+        width: 28px;
+        object-fit: cover;
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        background-color: #EFE5FF;
+        padding: 30px 0;
+        margin: 10px 0;
+        overflow-y: hidden;
+    }
+
+    .brand .bardstyle {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .brand .bardstyle {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    .brand .bardstyle {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6rem;
+        padding: 0 39px;
+    }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {}
+
+/* ! XX-Large devices (larger desktops) */
