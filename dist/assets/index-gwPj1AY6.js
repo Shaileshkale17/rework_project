@@ -12268,7 +12268,7 @@ const nn = ({
           children: h.jsx(fn, {
             to: "/",
             children: h.jsx("img", {
-              src: "../logo (1).png",
+              src: "/logo (1).png",
               alt: "ReworkAi",
             }),
           }),
