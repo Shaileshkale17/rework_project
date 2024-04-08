@@ -2,8 +2,9 @@ import React from "react";
 import Button from "../../components/Button/Button";
 import "./Navber.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo (1).png";
 const Navber = () => {
-  const logo = "/src/assets/logo (1).png";
+  // const logo = "/src/assets/logo (1).png";
   return (
     <nav>
       <div className="logo">
