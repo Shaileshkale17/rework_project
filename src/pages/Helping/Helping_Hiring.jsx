@@ -60,7 +60,7 @@ const Helping_Hiring = () => {
             styleClass="cards-Helping"
             styleClassPara="cards-Helping-paragraph"
             key={data.id}
-            SvgImg={data.img}
+            SvgImg={images1}
             NumberTitle={data.title}
             Title={data.title2}
             morePara={data.text}
