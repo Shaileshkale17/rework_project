@@ -2,30 +2,32 @@ import React from "react";
 import "./Pricing.css";
 import Pricings from "../../components/pricings/Pricings";
 import Button from "../../components/Button/Button";
+import Icon1 from "../../assets/Icons.png";
+import Icon2 from "../../assets/Vector (4).png";
 const Pricing = () => {
   const datainfo = [
     {
-      img: "/src/assets/Icons.png",
+      img: Icon1,
       text: "10 interview-ready candidates",
     },
     {
-      img: "/src/assets/Icons.png",
+      img: Icon1,
       text: "Unlimited job postings",
     },
     {
-      img: "/src/assets/Icons.png",
+      img: Icon1,
       text: "Receive pre-vetted profiles within 48 hours",
     },
     {
-      img: "/src/assets/Vector (4).png",
+      img: Icon2,
       text: "Dedicated account manager",
     },
     {
-      img: "/src/assets/Vector (4).png",
+      img: Icon2,
       text: "Assistance with interview scheduling",
     },
     {
-      img: "/src/assets/Vector (4).png",
+      img: Icon2,
       text: "Custom reports",
     },
   ];
