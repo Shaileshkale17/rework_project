@@ -1,13 +1,14 @@
 import React from "react";
 import "./Helping_Hiring.css";
 import Candidates from "../../components/Candidates/Candidates";
+import images1 from "../../src/assets/eos-icons_ai.png";
 const Helping_Hiring = () => {
   const Data = [
     {
       id: 1,
       title: "60%",
       title2: "Cost Reduce",
-      img: "../../src/assets/eos-icons_ai.png",
+      img: images1,
       text: "Zero overhead in the hiring process - promisel Source top quality candidates for some of the best companies",
     },
 
