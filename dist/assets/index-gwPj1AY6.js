@@ -12267,7 +12267,10 @@ const nn = ({
           className: "logo",
           children: h.jsx(fn, {
             to: "/",
-            children: h.jsx("img", { src: "./logo (1).png", alt: "ReworkAi" }),
+            children: h.jsx("img", {
+              src: "../logo (1).png",
+              alt: "ReworkAi",
+            }),
           }),
         }),
         h.jsxs("ul", {
@@ -12337,9 +12340,9 @@ const nn = ({
       ],
     }),
   tg = () => {
-    const e = "./Group.png",
-      t = "./Rectangle 39395.png",
-      n = "./Vector (1).png";
+    const e = "../Group.png",
+      t = "../Rectangle 39395.png",
+      n = "../Vector (1).png";
     return h.jsxs("section", {
       className: "heroSection",
       children: [
@@ -12414,9 +12417,9 @@ const nn = ({
   },
   un = ({ SvgImg: e, Title: t = "Brand" }) => h.jsx("img", { src: e, alt: t }),
   ng = () => {
-    const e = "./google-2015 1.png",
+    const e = "../google-2015 1.png",
       t =
-        "./kisspng-amazon-com-logo-brand-amazon-prime-video-product-amazon-offers-boat-bassheads-225-in-ear-super-ex-5b816a4424cdd5 1.png";
+        "../kisspng-amazon-com-logo-brand-amazon-prime-video-product-amazon-offers-boat-bassheads-225-in-ear-super-ex-5b816a4424cdd5 1.png";
     return h.jsxs("section", {
       className: "brand",
       children: [
@@ -12431,11 +12434,17 @@ const nn = ({
             h.jsx(un, { SvgImg: t, Title: "amazon" }),
             h.jsx(un, {
               SvgImg:
-                "./kisspng-nokia-networks-logo-nyse-nok-business-5b3983e37d3eb2 1.png",
+                "../kisspng-nokia-networks-logo-nyse-nok-business-5b3983e37d3eb2 1.png",
               Title: "Nokia",
             }),
-            h.jsx(un, { SvgImg: "./Vector (2).png", Title: "spotify" }),
-            h.jsx(un, { SvgImg: "./microsoft 2.png", Title: "microsoft" }),
+            h.jsx(un, {
+              SvgImg: "../Vector (2).png",
+              Title: "spotify",
+            }),
+            h.jsx(un, {
+              SvgImg: "../microsoft 2.png",
+              Title: "microsoft",
+            }),
             h.jsx(un, { SvgImg: e, Title: "Google" }),
             h.jsx(un, { SvgImg: t, Title: "amazon" }),
           ],
@@ -12449,40 +12458,40 @@ const nn = ({
         id: 1,
         title: "60%",
         title2: "Cost Reduce",
-        img: "./eos-icons_ai.png",
+        img: "../eos-icons_ai.png",
         text: "Zero overhead in the hiring process - promisel Source top quality candidates for some of the best companies",
       },
       {
         id: 2,
         title: "50% Faster",
         title2: "Recruitment by TAT",
-        img: "./eos-icons_ai (1).png",
+        img: "../eos-icons_ai (1).png",
         text: "Zers overhead in the hiring process promisel Source top quality candidates for some of the best companies",
       },
       {
         id: 3,
         title: "Highly Contextualized Interview",
         title2: "Interview",
-        img: "./mdi_user-card-details-outline.png",
+        img: "../mdi_user-card-details-outline.png",
         text: "Al models generate highly contextualized Interviews for the candidates based on your Company profile, Job descriptiori and Candidate's CV",
       },
       {
         id: 4,
-        img: "./healthicons_i-schedule-school-date-time-outline.png",
+        img: "../healthicons_i-schedule-school-date-time-outline.png",
         title: "Automated Scheduling",
         title2: "Scheduling",
         text: "Email & WhatsApp based communication for interview scheduling with automated reminders.Al models generate highly contextualized Interviews for the candidates based on your Company profile, Job descriptiori and Candidate's CV",
       },
       {
         id: 5,
-        img: "./eos-icons_ai (2).png",
+        img: "../eos-icons_ai (2).png",
         title: "Al generated Interviews",
         title2: "On what matters",
         text: "0 manual interventions, completely seamless experience for the candidates",
       },
       {
         id: 6,
-        img: "./fluent_tasks-app-20-regular.png",
+        img: "../fluent_tasks-app-20-regular.png",
         title: "n-built",
         title2: "ATS",
         text: "To manage all of your candidates & Credo verified CVs Integrations with other ATS coming soon0 manual interventions, completely seamless experience for the candidates",
@@ -12536,7 +12545,7 @@ function lg() {
             tr,
             {
               NumberTitle: "Upload Documents",
-              SvgImg: "./Frame 48095633 (1).png",
+              SvgImg: "../Frame 48095633 (1).png",
               Title:
                 "Shortlist the most qualified candidate and upload their details for the top companies",
               styleClass: "System-card-main color-bg",
@@ -12548,7 +12557,7 @@ function lg() {
             tr,
             {
               NumberTitle: "Sign Up",
-              SvgImg: "./mingcute_user-add-line.png",
+              SvgImg: "../mingcute_user-add-line.png",
               Title:
                 "Follow the link below to sign up and get access of the current job postings",
               styleClass: "System-card-main ",
@@ -12560,7 +12569,7 @@ function lg() {
             tr,
             {
               NumberTitle: "Get Rewards",
-              SvgImg: "./Frame 48095633.png",
+              SvgImg: "../Frame 48095633.png",
               Title:
                 "As soon as the candidate gets selected you get your benefits",
               styleClass: "System-card-main color-bg",
@@ -12661,15 +12670,24 @@ const ko = ({
   },
   ig = () => {
     const e = [
-      { img: "./Icons.png", text: "10 interview-ready candidates" },
-      { img: "./Icons.png", text: "Unlimited job postings" },
       {
-        img: "./Icons.png",
+        img: "../Icons.png",
+        text: "10 interview-ready candidates",
+      },
+      { img: "../Icons.png", text: "Unlimited job postings" },
+      {
+        img: "../Icons.png",
         text: "Receive pre-vetted profiles within 48 hours",
       },
-      { img: "./Vector (4).png", text: "Dedicated account manager" },
-      { img: "./Vector (4).png", text: "Assistance with interview scheduling" },
-      { img: "./Vector (4).png", text: "Custom reports" },
+      {
+        img: "../Vector (4).png",
+        text: "Dedicated account manager",
+      },
+      {
+        img: "../Vector (4).png",
+        text: "Assistance with interview scheduling",
+      },
+      { img: "../Vector (4).png", text: "Custom reports" },
     ];
     return h.jsxs("section", {
       className: "Pricing",
@@ -12702,7 +12720,7 @@ const ko = ({
             h.jsx(ko, {
               LinkTypeBtn: "/get_started",
               monthNumber: "1",
-              pricing: "199.00",
+              pricing: "149.00",
               btnTitles: "Get Started",
               styleClass: "Pricing_css",
               btnStyle: "Pricing_btn",
@@ -12715,7 +12733,7 @@ const ko = ({
             h.jsx(ko, {
               LinkTypeBtn: "/get_started",
               monthNumber: "1",
-              pricing: "199.00",
+              pricing: "169.00",
               btnTitles: "Get Started",
               styleClass: "Pricing_css",
               btnStyle: "Pricing_btn",
@@ -12803,7 +12821,10 @@ const ko = ({
         }),
         h.jsx("div", {
           className: "Assessment-img",
-          children: h.jsx("img", { src: "./Rectangle 39394.png", alt: "" }),
+          children: h.jsx("img", {
+            src: "../Rectangle 39394.png",
+            alt: "",
+          }),
         }),
       ],
     }),
@@ -12847,14 +12868,14 @@ const ko = ({
         text: `“Rework has been a great way to make the hiring process easier and
   faster. We've been able to save money and time, and the recruiters have
   been able to find the best employers leads. Highly recommend! “`,
-        userimage: "./Ellipse 1.png",
+        userimage: "../Ellipse 1.png",
         username: "Theresa Webb",
         userJob: "sub_titleHR Manager, Amazon",
       },
       {
         id: "2",
         text: "“Rework has been a great way to make the hiring process easier and faster. We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! ““ Rework has been a great way to make the hiring process easier and faster.  Highly recommend! “",
-        userimage: "./Ellipse 2.png",
+        userimage: "../Ellipse 2.png",
         username: "Savannah Nguyen",
         userJob: "HR Manager, Microsoft",
       },
@@ -12863,28 +12884,28 @@ const ko = ({
         text: `“Rework has been a great way to make the hiring process easier and
   faster. We've been able to save money and time, and the recruiters have
   been able to find the best employers leads. Highly recommend! “`,
-        userimage: "./Ellipse 1.png",
+        userimage: "../Ellipse 1.png",
         username: "Theresa Webb",
         userJob: "sub_titleHR Manager, Amazon",
       },
       {
         id: "4",
         text: "“ Rework has been a great way to make the hiring process easier and faster. We've been able to save money and time, ““ Rework has been a great way to make the hiring process easier and faster.  Highly recommend! “",
-        userimage: "./Ellipse 1 (1).png",
+        userimage: "../Ellipse 1 (1).png",
         username: "Ronald Richards",
         userJob: "HR Manager, Google",
       },
       {
         id: "5",
         text: "“ Rework has been a great way to make the hiring process easier and faster. We've been able to save money and time, ““ Rework has been a great way to make the hiring process easier and faster.  Highly recommend! “",
-        userimage: "./Ellipse 1 (1).png",
+        userimage: "../Ellipse 1 (1).png",
         username: "Ronald Richards",
         userJob: "HR Manager, Google",
       },
       {
         id: "6",
         text: "“ Rework has been a great way to make the hiring process easier and faster. We've been able to save money and time, ““ Rework has been a great way to make the hiring process easier and faster.  Highly recommend! “",
-        userimage: "./Ellipse 1 (1).png",
+        userimage: "../Ellipse 1 (1).png",
         username: "Ronald Richards",
         userJob: "HR Manager, Google",
       },
@@ -13010,21 +13031,21 @@ const ko = ({
           className: "card_main",
           children: [
             h.jsx(_o, {
-              img: "./unsplash_MpdLxiIg0P0 (1).png",
+              img: "../unsplash_MpdLxiIg0P0 (1).png",
               title:
                 "Rework has been a great way to make the hiring process easier and faster.",
               para: "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
               path: "/amzanareviews",
             }),
             h.jsx(_o, {
-              img: "./unsplash_MpdLxiIg0P0 (2).png",
+              img: "../unsplash_MpdLxiIg0P0 (2).png",
               title:
                 "Rework has been a great way to make the hiring process easier and faster.",
               para: "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
               path: "/Googlereviews",
             }),
             h.jsx(_o, {
-              img: "./unsplash_MpdLxiIg0P0 (3).png",
+              img: "../unsplash_MpdLxiIg0P0 (3).png",
               title:
                 "Rework has been a great way to make the hiring process easier and faster.",
               para: "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
