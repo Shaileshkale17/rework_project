@@ -50,7 +50,7 @@ const Pricing = () => {
         <Pricings
           LinkTypeBtn="/get_started"
           monthNumber="1"
-          pricing="199.00"
+          pricing="149.00"
           btnTitles="Get Started"
           styleClass="Pricing_css"
           btnStyle="Pricing_btn"
@@ -63,7 +63,7 @@ const Pricing = () => {
         <Pricings
           LinkTypeBtn="/get_started"
           monthNumber="1"
-          pricing="199.00"
+          pricing="169.00"
           btnTitles="Get Started"
           styleClass="Pricing_css"
           btnStyle="Pricing_btn"

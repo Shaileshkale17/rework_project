@@ -84,7 +84,12 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
+    cursor: pointer;
+}
 
+.Assessment .Assessment-text .Assessment-btn:hover {
+    background-color: transparent;
+    color: #5C27C0;
 }
 
 
