@@ -2,10 +2,13 @@ import React from "react";
 import "./System.css";
 import Candidates from "../../components/Candidates/Candidates";
 import Button from "../../components/Button/Button";
+import img1 from "../../assets/Frame 48095633 (1).png";
+import img2 from "../../assets/mingcute_user-add-line.png";
+import img3 from "../../assets/Frame 48095633.png";
 function System() {
-  const img1 = "/src/assets/Frame 48095633 (1).png";
-  const img2 = "/src/assets/mingcute_user-add-line.png";
-  const img3 = "/src/assets/Frame 48095633.png";
+  // const img1 = "/src/assets/Frame 48095633 (1).png";
+  // const img2 = "/src/assets/mingcute_user-add-line.png";
+  // const img3 = "/src/assets/Frame 48095633.png";
 
   return (
     <section className="System">
