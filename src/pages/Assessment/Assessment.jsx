@@ -1,9 +1,10 @@
 import React from "react";
 import "./Assessment.css";
 import Button from "../../components/Button/Button";
+import Assessment_img from "../../assets/Rectangle 39394.png";
 
 const Assessment = () => {
-  const Assessment_img = "/src/assets/Rectangle 39394.png";
+  // const Assessment_img = "/src/assets/Rectangle 39394.png";
   return (
     <section className="Assessment">
       <div className="Assessment-text">
