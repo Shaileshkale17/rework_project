@@ -5,10 +5,13 @@ import Button from "../../components/Button/Button";
 import Para from "../../components/Para/Para";
 import "./Hero.css";
 import Candidates from "../../components/Candidates/Candidates";
+import Image from "../../assets/Rectangle 39395.png";
+import svg from "../../assets/Group.png";
+import CandidatesSvg from "../../assets/Vector (1).png";
 const Hero = () => {
-  const svg = "/src/assets/Group.png";
-  const Image = "/src/assets/Rectangle 39395.png";
-  const CandidatesSvg = "/src/assets/Vector (1).png";
+  // const svg = "/src/assets/Group.png";
+  // const Image = "/src/assets/Rectangle 39395.png";
+  // const CandidatesSvg = "/src/assets/Vector (1).png";
   return (
     <section className="heroSection">
       <div className="hero-text">
