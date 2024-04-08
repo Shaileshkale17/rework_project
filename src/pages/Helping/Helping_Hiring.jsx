@@ -1,7 +1,6 @@
 import React from "react";
 import "./Helping_Hiring.css";
 import Candidates from "../../components/Candidates/Candidates";
-import images1 from "../../src/assets/eos-icons_ai.png";
 const Helping_Hiring = () => {
   const Data = [
     {
@@ -60,7 +59,7 @@ const Helping_Hiring = () => {
             styleClass="cards-Helping"
             styleClassPara="cards-Helping-paragraph"
             key={data.id}
-            SvgImg={images1}
+            SvgImg={data.img}
             NumberTitle={data.title}
             Title={data.title2}
             morePara={data.text}
