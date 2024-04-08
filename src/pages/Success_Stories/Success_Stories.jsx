@@ -1,10 +1,13 @@
 import React from "react";
 import "./Success_Stories.css";
 import Success_Stories_card from "../../components/Success_Stories_card/Success_Stories_card";
+import img_amz_comapny from "../../assets/unsplash_MpdLxiIg0P0 (1).png";
+import img_google_comapny from "../../assets/unsplash_MpdLxiIg0P0 (2).png";
+import img_mic_comapny from "../../assets/unsplash_MpdLxiIg0P0 (3).png";
 const Success_Stories = () => {
-  const img_amz_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (1).png";
-  const img_google_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (2).png";
-  const img_mic_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (3).png";
+  // const img_amz_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (1).png";
+  // const img_google_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (2).png";
+  // const img_mic_comapny = "/src/assets/unsplash_MpdLxiIg0P0 (3).png";
   return (
     <section className="Success_Stories">
       <div className="Success_Stories_div_para">
